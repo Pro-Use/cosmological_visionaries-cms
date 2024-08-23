@@ -1,0 +1,21 @@
+title: Site
+
+tabs:
+  content:
+    label: UI Content
+    icon: text
+    fields:
+      instruction:
+        type: writer
+        label: Instruction Text
+      timeout:
+        type: writer
+        label: Timeout Text
+  models:
+    label: Votive Objects
+    icon: box
+    sections:
+      models:
+        label: Objects
+        type: pages
+        template: model

@@ -1,0 +1,27 @@
+title: Votive Object
+
+tabs:
+  content:
+    label: Object Options
+    icon: text
+    fields:
+      roi:
+        label: Areas of interest
+        type: tags
+      background:
+        label: Background Image
+        type: files
+        multiple: false
+        layout: cards
+        uploads:
+          parent: site
+          template: background
+  context:
+    label: Context Messages
+    icon: email
+    sections:
+      messages:
+        label: Messages
+        type: pages
+        template: message
+

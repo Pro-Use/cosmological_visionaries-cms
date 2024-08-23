@@ -1,0 +1,10 @@
+title: Avatar
+
+accept:
+  mime: image/*
+  type: image
+create:
+  format: webp
+  width: 500
+  height: 500
+  crop: true

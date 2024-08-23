@@ -1,0 +1,48 @@
+title: Message
+
+columns:
+  left:
+    width: 1/5
+    fields:
+      avatar:
+        icon: user
+        label: Sender image
+        type: files
+        multiple: false
+        layout: cards
+        uploads:
+          parent: site
+          template: avatar
+  right:
+    width: 4/5
+    fields:
+      content:
+        label: Message Content
+        type: blocks
+        min: 1
+        max: 2
+        fieldsets:
+          text:
+            label: Text
+            type: group
+            fieldsets:
+              - text
+          media:
+            label: Media
+            type: group
+            fieldsets:
+              - image
+              - video
+        help: Messages can contain a single text, image or video block. Alternatively they may contain an image or video block and a text block.
+  full:
+    width: 5/5
+    fields:
+      line:
+        type: line
+      region:
+        label: Area to trigger this message (optional)
+        type: multiselect
+        options:
+          type: query
+          query: page.parent.roi.split
+

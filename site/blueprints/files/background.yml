@@ -1,0 +1,8 @@
+title: Background
+
+accept:
+  mime: image/*
+  type: image
+  orientation: landscape
+create:
+  format: webp
