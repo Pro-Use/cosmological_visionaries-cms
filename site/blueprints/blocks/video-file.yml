@@ -8,7 +8,9 @@ fields:
   videofile:
     label: Video File
     type: files
+    uploads: video-file
   videostill:
     label: Video Still Image
     type: files
+    uploads: video-still
   
