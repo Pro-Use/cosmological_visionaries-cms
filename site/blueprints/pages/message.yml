@@ -16,7 +16,7 @@ columns:
   right:
     width: 4/5
     fields:
-      content:
+      messagecontent:
         label: Message Content
         type: blocks
         min: 1
