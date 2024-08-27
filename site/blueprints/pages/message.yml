@@ -33,6 +33,7 @@ columns:
             fieldsets:
               - image
               - video
+              - video-file
         help: Messages can contain a single text, image or video block. Alternatively they may contain an image or video block and a text block.
   full:
     width: 5/5
