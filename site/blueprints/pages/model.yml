@@ -5,6 +5,10 @@ tabs:
     label: Object Options
     icon: text
     fields:
+      gltf_model:
+        label: 3D Model (Do not edit!)
+        type: files
+        multiple: false
       roi:
         label: Areas of interest
         type: tags
