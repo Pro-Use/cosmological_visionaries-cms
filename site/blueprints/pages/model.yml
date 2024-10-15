@@ -9,6 +9,7 @@ tabs:
         label: 3D Model (Do not edit!)
         type: files
         multiple: false
+        template: glb
       roi:
         label: Areas of interest
         type: tags

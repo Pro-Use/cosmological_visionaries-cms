@@ -1,0 +1,5 @@
+title: GLB Model
+
+accept:
+  extension: glb
+  maxsize: 5000000
