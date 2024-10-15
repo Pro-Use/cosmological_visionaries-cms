@@ -1,5 +1,5 @@
 title: GLB Model
 
 accept:
-  extension: glb
+  mime: null
   maxsize: 5000000
