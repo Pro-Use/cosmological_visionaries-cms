@@ -5,7 +5,7 @@
             'auth' => 'bearer'
         ],
         'headless' => [
-            'token' => 'Jg208;rir!-c',
+            'token' => 'Jg208frirnoc',
             'cors' => [
                 'allowOrigin' => '*',
                 'allowMethods' => 'GET, POST, OPTIONS',
