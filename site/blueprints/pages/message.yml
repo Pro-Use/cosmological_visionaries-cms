@@ -40,10 +40,10 @@ columns:
     fields:
       line:
         type: line
-      region:
-        label: Area to trigger this message (optional)
-        type: multiselect
+      side:
+        label: Justify Message Left/Right
+        type: radio
         options:
-          type: query
-          query: page.parent.roi.split
+          left: Left
+          right: Right
 
